@@ -17,7 +17,10 @@ shinyUI(fluidPage(
                           flowers from each of 3 species of iris. The species are Iris setosa, versicolor,
                           and virginica."),
                         h4("Modeling"),
-                        p("For this application, a random forest model is being used to generate the predictions.")
+                        p("For this application, a random forest model is being used to generate the predictions."),
+                        h4("Further Documentation"),
+                        p("All code for this application can be found on",
+                          a("Github.", href="https://github.com/jmigaleddi/DevelopingDataProducts"))
         )),
         
         br(),
